@@ -26,9 +26,9 @@ mongoose
   )
   .then(() => {
     console.log("Connected!");
-    app.listen(3000, () => {
-      console.log("server listening on Port 3000");
-    });
+    // app.listen(3000, () => {
+    //   console.log("server listening on Port 3000");
+    // });
   })
   .catch(() => {
     console.log("Failed to Connect to Server");
